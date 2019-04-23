@@ -10,7 +10,7 @@ namespace SimpleImageGallery.Data
         {
         }
 
-        DbSet<GalleryImage> GalleryImages { get; set; }
-        DbSet<ImageTag> ImageTags { get; set; }
+        public DbSet<GalleryImage> GalleryImages { get; set; }
+        public DbSet<ImageTag> ImageTags { get; set; }
     }
 }
