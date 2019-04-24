@@ -1,6 +1,10 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+.body-content{
+    width:3s0%;
+    margin:auto;
+}
 .gallery-content{
     padding: 24px;
 }
@@ -11,6 +15,7 @@ for details on configuring this project to bundle and minify static web assets. 
     height: 280px;
     width: 280px;
 }
+
 
 .gallery-image-container {
     padding: 8px;
@@ -28,6 +33,41 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+}
+
+.drop-shadow {
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.image-detail-container {
+    text-align: left;
+}
+
+.image-detail {
+    padding: 12px;
+    border-radius: 2px;
+}
+
+.image-detail-meta {
+    padding: 12px;
+}
+
+.submit {
+    padding: 2%;
+}
+
+.btn-file {
+    margin: 6px;
+}
+
+#upload-form {
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+}
+
+.upload-container {
+    padding: 2%;
 }
 
 /* Sticky footer styles
