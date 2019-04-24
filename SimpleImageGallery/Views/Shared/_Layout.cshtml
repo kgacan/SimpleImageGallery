@@ -22,7 +22,16 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Gallery" asp-action="Index">SimpleImageGallery</a>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a asp-controller="Image" asp-action="Upload">Upload</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
         </nav>
     </header>
     <div class="container">
